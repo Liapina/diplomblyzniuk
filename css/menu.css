@@ -1,0 +1,32 @@
+
+nav {
+	background-color: #252e30;
+	max-height: 70px;
+	
+}
+nav:after {
+	content:'';
+    clear: both;
+    display: table;
+}
+.navi_logo {
+	float: left;	
+	margin-top: 1%;
+	margin-bottom: 1% ;
+	padding-right: 18%;
+	
+}
+.block_navi_button {
+	padding-top: 2.5%;
+	
+}
+
+.navi_button {
+	padding-left: 3%;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.navi_button:hover {
+	color: #2ecc71;
+}

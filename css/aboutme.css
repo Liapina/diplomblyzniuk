@@ -1,0 +1,50 @@
+.section_about_me {
+	background-color: #f2f2f1;
+	max-height: 794px;
+
+}
+.about_me_img {
+	float: left;
+	margin-left: -10%;
+}
+.section_about_me:after {
+    content:'';
+    clear: both;
+    display: table;
+ }
+ .about_me_content_block1 {
+ 	float: right;
+ 	text-align: left;
+ }
+.about_me_content {
+	padding: 5% 0 0 47%;
+}
+.about_me_content-title {
+	padding-bottom: 4%;
+}
+.about_me_content_p {
+	height: 130px;
+}
+.about_me_content-skills:after {
+	content:'';
+    clear: both;
+    display: table;
+}
+.aboutme_icon {
+	float: left;
+}
+.about_me_content-skills {
+	display: inline-block;
+	width: 49%;
+
+}
+.about_me_content-skills-title {
+	font-size: 22px;
+	font-weight: 700;
+	padding-left: 50px;
+	padding-bottom: 20px;
+}
+.about_me_content-skills-p {
+	padding-left: 50px;
+	padding-bottom: 40px;
+}

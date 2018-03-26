@@ -1,0 +1,18 @@
+.section_testimonials {
+	background-color: #f2f2f1;
+	height: 400px;
+}
+.testimonials_content {
+	padding: 90px 200px 180px 200px;
+}
+.testimonials_content_p {
+	font-size: 24px;
+	font-style: italic;
+}
+.testimonials_content_title {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 36px;
+	text-align: center;
+	padding-top: 45px;
+}

@@ -1,0 +1,15 @@
+.section_values {
+	max-height: 344px;
+	padding: 5% 5% 5% 3%;
+}
+.values_content_block {
+	display: inline-block;
+	width: 30%;
+	padding-left: 3%;
+	vertical-align: top;
+}
+.values_titel {
+	padding-bottom: 48px;
+	font-family: Roboto;
+	font-weight: 700;
+}

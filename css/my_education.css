@@ -1,0 +1,51 @@
+.section_my-education {
+	padding-bottom: 10px;
+}
+.my-education_content {
+	height: 800px;
+	border-bottom: 1px solid #cccccc;
+}
+.my-education_content_text {
+	float: left;
+	padding-top: 60px;
+	text-align: left;
+}
+.my-education_content_text:after {
+	content:'';
+    clear: both;
+    display: table;
+}
+.my-education_content_diploma {
+	width: 550px;
+	float: right;
+	text-align: left;
+	padding-top: 100px;
+}
+.my-education_content_text_p {
+	width: 550px;
+	height: 130px;
+}
+.my-education_content_text_title {
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+.my-education_content_diploma_graphic_title {
+	font-size: 22px;
+	font-weight: 700;
+	padding-top: 25px;
+}
+.my-education_content_diploma_graphic_p {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+.my-education_content_diploma_button {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 30px;
+	background-color: #2ecc71;
+	padding: 10px 11px 8px 9px;
+}
+.border-education {
+	border-top: 1px solid #cccccc;
+	margin-top: 30px;
+}

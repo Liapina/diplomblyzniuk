@@ -1,0 +1,84 @@
+
+@media screen and (max-width: 375px) {
+	.header_title {
+		font-size: 20px;
+		border-top:  none;
+		border-bottom: none;
+		padding-top:  45%;
+		padding-bottom: 5%;
+	}
+	.header_button {
+		font-size: 15px;
+	}
+	nav {
+		max-height: 667px;
+	}
+	.navi_button {
+		display: block;
+		text-align: center;
+		padding: 7% 0 10% 0;
+		font-size: 30px;
+	}
+
+	.navi_logo, .section_values, .about_me_img, .about_me_content_block1, .my_skills_content, .resume_titel, .resume_content, .section_my-education, .section_workexperience, .section_testimonials, .contact_me_block_content  {
+		display: none;
+	}
+	.about_me_content-skills {
+		display: block;
+		width: 90%;
+		height: 150px;
+	}
+	.about_me_content {
+	padding: 5% 0 0 5%;
+}
+.my_skills_graph{
+	padding-right: 5%;
+	padding-top: 10px;
+}
+	.my_skills_graph_grey-line {
+	width: 300px;
+	}
+	.line90 {
+	width: 290px;
+}
+	.line80 {
+	width: 280px;
+}
+	.line70 {
+	width: 270px;
+}
+.section_resume {
+	background-color: white;
+}
+.resume_btn {
+
+}
+.section_portfolio,  {
+	text-align: left;
+}
+.gallery {
+	display: block;
+}
+.contact_me_block_form {
+	padding-left: 5%;
+}
+.contact_form {
+	width: 90%;
+
+}
+.contact_batton {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.contact_me_block_form {
+	padding-top: 10px;
+}
+.footer_content {
+	padding: 5px 0 5px 0;
+}
+.footer_img {
+	padding: 5px 5px 0 0;
+
+}
+
+}

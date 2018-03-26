@@ -1,0 +1,32 @@
+.section_portfolio {
+	text-align: center;
+	padding-bottom: 5%;
+}
+.gallery {
+    display: inline-block;
+    width: 30%;
+    min-width: 220px;
+    padding: 0 3% 3% 0;
+    position: relative;
+}
+.portfolio_title {
+	padding-bottom: 3%;
+	padding-top: 5%;
+}
+.portfolio_p {
+	padding: 0 10% 5% 10%;
+
+}
+.gallery:hover {
+	background: url('../images/portfolio/container---overlay.png') no-repeat;
+}
+.gallery:hover img {
+	background: transparent;
+  	opacity: 0.25;
+}
+.gallery:hover:before {
+	content: url('../images/icon/icon.png');
+  	position: absolute;
+  	top: 40%;
+  	left: 40%;
+ }

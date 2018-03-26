@@ -1,0 +1,33 @@
+
+header {
+	background: url('../images/img.png') no-repeat center;
+	background-size: cover;
+	height: 100vh;
+    line-height: 100vh;
+	
+}
+.header_content {
+	padding: 28% 22% 41% 22%;
+	color: #ffffff;
+	text-align: center;
+}
+.header_title {
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 50px;
+	margin-bottom: 10%;
+	color: #ffffff;
+}
+.header_button {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 20px 35px 18px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.header_button:hover {
+	box-shadow: 0 0 10px black;
+}

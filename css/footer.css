@@ -1,0 +1,26 @@
+	.section_footer {
+	background-color: #191f21;
+}
+.footer_content {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.footer_img {
+	display: inline-block;
+	line-height: 34px;
+	width:  36px;
+	background-color: #4b5456;
+	border-radius: 34px; 
+	padding-top: 3px;
+}
+
+.footer_img:hover {
+	box-shadow: 0 0 10px black;
+}
+
+.footer_img_box {
+	padding-right: 5px;
+	display: inline-block;
+}
+
+

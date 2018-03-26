@@ -1,0 +1,76 @@
+.section_my_skills:after {
+	content:'';
+    clear: both;
+    display: table;
+}
+.my_skills_content {
+	float: left;
+	padding: 10% 0 0 0;
+}
+.my_skills_content_title {
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+.my_skills_content_p {
+	width: 548px;
+	height: 130px;
+}
+.my_skills_content_btn {
+	border: 2px solid #2ecc71;
+	background-color: #ffffff ;
+	color: #2ecc71;
+	padding: 15px 30px 15px 30px;
+}
+.my_skills_content_btn:hover {
+	box-shadow: 0 0 10px black;
+}
+.my_skills_graph {
+	padding-top: 80px;
+	padding-bottom: 100px;
+	float: right;
+	padding-right: 60px;	
+}
+.my_skills_graph_grey-line {
+	width: 450px;
+	background-color: #f2f2f1;
+	float: right;
+}
+.my_skills_graph_percent {
+	color: #ffffff;
+	text-align: right;
+	padding-top: 6px; 
+}
+.my_skills_graph_title {
+	font-size: 22px;
+	font-weight: 700;
+	padding-bottom: 25px;
+}
+.line90 {
+	width: 522px;
+}
+.line80 {
+	width: 477px;
+}
+.line70 {
+	width: 360px;
+}
+.my_skills_graph-all-line {
+	padding-top: 60px;
+}
+.my_skills_graph_green-line {
+	background-color: #2ecc71;
+	animation: appear 2s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+}
+
+@keyframes appear {
+			0% {
+				width: 0;
+				opacity: 0;
+			}
+			80% {
+				width: 100%;
+				opacity: 1;
+			}
+		}
